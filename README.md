@@ -157,10 +157,13 @@ Building the smallest useful version clarified several points:
 
 I built this project while learning MCP and LLM application architecture. It demonstrates hands-on exploration and technical communication; it is not presented as production MCP experience.
 
+## Companion article
+
+For a longer explanation of the design decisions, protocol boundary, write-tool risks, and testing approach, read [Giving an AI Game NPC Tools: From Dialogue to Action with MCP](docs/giving-an-ai-game-npc-tools-with-mcp.md).
+
 ## References
 
 - [Model Context Protocol documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
 - [Official MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [MCP tool specification](https://modelcontextprotocol.io/specification/2025-11-25/server/tools)
 - [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)
-
