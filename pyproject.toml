@@ -1,0 +1,25 @@
+[project]
+name = "mcp-game-npc"
+version = "0.1.0"
+description = "A minimal MCP server that gives an AI game NPC controlled access to authoritative game state."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "mcp==2.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9.0,<10",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["game_state", "server", "demo_client"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+anyio_mode = "auto"
